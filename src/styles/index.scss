@@ -1,3 +1,12 @@
-@import "./reset";
-@import "./global";
-@import "./home";
+@use "./reset";
+@use "./global";
+
+/**
+ * components
+ */
+@use "./components/Header";
+
+/**
+ * pages
+ */
+@use "./home.scss";

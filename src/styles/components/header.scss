@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  padding: 40px;
+  &-title {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  &__nav {
+    margin-left: auto;
+    &-list {
+      display: flex;
+    }
+    &-item {
+      margin-left: 20px;
+    }
+    &-link {
+      display: inline-block;
+      line-height: 80px;
+    }
+  }
+}
