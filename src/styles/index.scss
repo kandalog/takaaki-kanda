@@ -1,5 +1,8 @@
-@use "./reset";
-@use "./global";
+/**
+ * base
+ */
+@use "./base/reset";
+@use "./base/global";
 
 /**
  * components
@@ -10,4 +13,4 @@
 /**
  * pages
  */
-@use "./home.scss";
+@use "./pages/home.scss";
