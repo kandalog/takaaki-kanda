@@ -1,0 +1,19 @@
+.footer {
+  margin-top: 10px;
+  text-align: center;
+}
+.sns-link-list {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  .sns-link-item {
+    &:not(:first-child) {
+      margin-left: 10px;
+    }
+    a {
+      img {
+        width: 30px;
+      }
+    }
+  }
+}

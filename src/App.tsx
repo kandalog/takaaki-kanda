@@ -5,6 +5,7 @@ import AboutSection from "./components/presentation/home/AboutSection";
 import { CareerSection } from "./components/presentation/home/CareerSection";
 import SkillSection from "./components/presentation/home/SkillSection";
 import ProjectSection from "./components/presentation/home/ProjectSection";
+import { Footer } from "./components/common/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <CareerSection />
         <ProjectSection />
       </MainContainer>
+      <Footer />
     </>
   );
 }
