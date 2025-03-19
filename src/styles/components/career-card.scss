@@ -1,0 +1,16 @@
+.career-card {
+  &-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .position-list {
+    margin-top: 10px;
+    &-item {
+      font-size: 14px;
+      font-style: italic;
+    }
+  }
+  .achievement-list {
+    margin-top: 15px;
+  }
+}

@@ -11,8 +11,9 @@
 @use "./components/header";
 @use "./components/section";
 @use "./components/card";
+@use "./components/career-card";
 
 /**
  * pages
  */
-@use "./pages/home.scss";
+@use "./pages/home";
