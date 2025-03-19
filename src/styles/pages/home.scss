@@ -1,0 +1,7 @@
+.home {
+  .card {
+    &:not(:first-child) {
+      margin-top: 20px;
+    }
+  }
+}

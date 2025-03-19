@@ -1,5 +1,11 @@
-function MainContainer({ children }: { children: React.ReactNode }) {
-  return <div className="main-container">{children}</div>;
+function MainContainer({
+  children,
+  className,
+}: {
+  children: React.ReactNode;
+  className: string;
+}) {
+  return <div className={`main-container ${className}`}>{children}</div>;
 }
 
 export default MainContainer;
