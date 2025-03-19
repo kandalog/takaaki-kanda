@@ -8,9 +8,17 @@
     &-item {
       font-size: 14px;
       font-style: italic;
+      &:not(:first-child) {
+        margin-top: 5px;
+      }
     }
   }
   .achievement-list {
     margin-top: 15px;
+    &-item {
+      &:not(:first-child) {
+        margin-top: 5px;
+      }
+    }
   }
 }

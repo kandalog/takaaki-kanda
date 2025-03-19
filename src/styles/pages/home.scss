@@ -11,5 +11,12 @@
         text-decoration: underline;
       }
     }
+    &.skill {
+      p {
+        &:not(:first-child) {
+          margin-top: 5px;
+        }
+      }
+    }
   }
 }
