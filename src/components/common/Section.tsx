@@ -8,7 +8,7 @@ function Section({ title, children, divider }: Props) {
   return (
     <section className={`section ${title}`}>
       <h2 className={`section-title ${title}`}>{title}</h2>
-      <p className="section-content">{children}</p>
+      <p className="section-text">{children}</p>
       {divider && <hr className="section-divider" />}
     </section>
   );
