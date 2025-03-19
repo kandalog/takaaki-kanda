@@ -5,17 +5,17 @@ function Header() {
       <nav className="header__nav">
         <ul className="header__nav-list">
           <li className="header__nav-item">
-            <a href="#" className="header__nav-link">
+            <a href="#about" className="header__nav-link">
               私について
             </a>
           </li>
           <li className="header__nav-item">
-            <a href="#" className="header__nav-link">
+            <a href="#career" className="header__nav-link">
               経験
             </a>
           </li>
           <li className="header__nav-item">
-            <a href="#" className="header__nav-link">
+            <a href="#project" className="header__nav-link">
               プロジェクト
             </a>
           </li>

@@ -2,7 +2,7 @@ import Section from "../../common/Section";
 
 function SkillSection() {
   return (
-    <Section divider title="スキル">
+    <Section divider title="スキル" id="skill">
       <p>
         <strong>プログラミング言語:</strong> TypeScript, Ruby, Python
       </p>
