@@ -1,6 +1,6 @@
 # Takaaki Kanda Folio
 
-https://kandalog.com
+https://www.kandalog.com
 
 ## 概要
 
