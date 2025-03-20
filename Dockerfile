@@ -4,6 +4,4 @@ WORKDIR /usr/src/app
 
 COPY package*.json ./
 
-RUN npm install -g npm &&  npm install
-
-CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
+RUN npm install -g npm
