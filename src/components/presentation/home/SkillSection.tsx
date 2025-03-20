@@ -7,8 +7,8 @@ function SkillSection() {
         <strong>プログラミング言語:</strong> TypeScript, Ruby, Python
       </p>
       <p>
-        <strong>フレームワーク & ライブラリ:</strong> React, Next.js, Rails,
-        Vitest, RSpec
+        <strong>フレームワーク & ライブラリ:</strong> React, Next.js, Vue,
+        Rails, Vitest, RSpec
       </p>
       <p>
         <strong>ツール:</strong> Git, Linux, Docker, Sentry, Metabase
