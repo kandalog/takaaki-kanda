@@ -10,6 +10,11 @@ function Header() {
             </a>
           </li>
           <li className="header__nav-item">
+            <a href="#skill" className="header__nav-link">
+              スキル
+            </a>
+          </li>
+          <li className="header__nav-item">
             <a href="#career" className="header__nav-link">
               経験
             </a>
