@@ -1,5 +1,7 @@
 # Takaaki Kanda Folio
 
+https://kandalog.com
+
 ## 概要
 
 自分について簡単に紹介するサイト
