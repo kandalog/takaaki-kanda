@@ -1,3 +1,7 @@
+import github from "../../assets/github.png";
+import qiita from "../../assets/qiita.png";
+import x from "../../assets/x.png";
+
 export function Footer() {
   return (
     <footer className="footer">
@@ -10,7 +14,7 @@ export function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/src/assets/github.png" alt="github" />
+            <img src={github} alt="github" />
           </a>
         </li>
         <li className="sns-link-item">
@@ -19,7 +23,7 @@ export function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/src/assets/qiita.png" alt="qiita" />
+            <img src={qiita} alt="qiita" />
           </a>
         </li>
         <li className="sns-link-item">
@@ -28,7 +32,7 @@ export function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/src/assets/x.png" alt="x" />
+            <img src={x} alt="x" />
           </a>
         </li>
       </ul>
