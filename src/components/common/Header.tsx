@@ -24,6 +24,15 @@ function Header() {
               プロジェクト
             </a>
           </li>
+          <li className="header__nav-item work-history">
+            <a
+              href="/work_history.pdf"
+              download="work_history.pdf"
+              className="header__nav-link"
+            >
+              経歴書
+            </a>
+          </li>
         </ul>
       </nav>
     </div>

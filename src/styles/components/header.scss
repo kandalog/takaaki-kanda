@@ -17,6 +17,39 @@
     }
     &-item {
       margin-left: 20px;
+      &.work-history {
+        height: 80px;
+        color: white;
+
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        a {
+          line-height: 1;
+          background-color: red;
+          padding: 10px 34px 10px 25px;
+          border-radius: 5px;
+          background-color: #0066cc;
+          position: relative;
+          &::after {
+            content: "↓";
+            position: absolute;
+            top: 45%;
+            right: 10%;
+            transform: translateY(-50%);
+          }
+          &::before {
+            content: "";
+            position: absolute;
+            top: 75%;
+            right: 13%;
+            width: 10px;
+            background-color: #fff;
+            height: 1px;
+          }
+        }
+      }
     }
     &-link {
       display: inline-block;
